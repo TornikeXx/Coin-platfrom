@@ -1,0 +1,49 @@
+.cards-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.cards{
+    border: 1px solid gray;
+    margin: 1rem;
+    padding: 40px;
+    height: 150px;
+}
+.cards-grid h1{
+    font-weight: bolder;
+    color: #111724;
+}
+.cards-grid h3{
+    font-weight: lighter;
+    color: gray;
+}
+.tittle{
+    margin-top: 10%;
+    width: 50%;
+    padding-left: 3%;
+}
+.tittle p {
+    padding-top: 20px;
+    color: #0100fd;
+}
+.payment-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    
+}
+.payment-card{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.payment-card p{
+    color: gray;
+}

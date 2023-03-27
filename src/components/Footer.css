@@ -1,0 +1,27 @@
+.footer {
+    background-color: #111724;
+}
+.footer-grid{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr; 
+   padding-left: 100px;
+   padding-top: 50px;
+   align-items: center;
+}
+.footer-media{
+padding: 10px;
+
+}
+.footer-links{
+padding-left: 90px;
+padding-top: 30px;
+}
+.footer-social{
+
+}
+.footer-grid h3{
+    color: white;
+}
+.footer-grid p{
+    color: darkgray;
+}

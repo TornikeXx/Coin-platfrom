@@ -1,0 +1,44 @@
+.pricing-title{
+    text-align: center;
+    padding-top: 50px;
+}
+.pricing-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.pricing-card{
+    border: 1px solid gray;
+    margin: 30px;
+    height: auto;
+    
+    
+}
+.top{
+    padding: 20px;
+}
+.p-tag{
+    
+    padding: 30px;
+    
+}
+.top p{
+    color: darkgrey;
+}
+.pricing-card button{
+    margin: 30px;
+    font-size: 19px;
+    padding: 10px 15px;
+    background-color: blue;
+    border: 0px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.pricing-button{
+    align-items: center;
+    text-align: center;
+    
+}
